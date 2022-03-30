@@ -1,0 +1,11 @@
+mutation updateLikeStatus($id: ID!, $description: String!) {
+    updateDescription(id: $id, description: $description) {
+        id
+        createdDate
+        updateDate
+        imagePosted
+        description
+        amountOfLikes
+        isLiked
+    }
+}

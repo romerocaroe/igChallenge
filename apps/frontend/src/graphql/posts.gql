@@ -1,0 +1,10 @@
+query posts {
+    posts {
+        id
+        createdDate
+        updateDate
+        description
+        amountOfLikes
+        isLiked
+    }
+}
